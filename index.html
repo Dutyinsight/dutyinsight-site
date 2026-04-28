@@ -1,71 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description"
-content="DutyInsight provides trade intelligence and customs advisory for importers, exporters, sourcing teams, and market-entry decision makers across Europe and North America." />
+  <title>DutyInsight | Trade Intelligence Reports for Import, Export & Market Strategy</title>
+  <meta name="description" content="DutyInsight delivers consulting-grade Import Intelligence, Export Intelligence, and Strategy Intelligence reports — pre-customs feasibility, market entry analysis, and investor-ready briefs for cross-border decision makers." />
+  <meta name="author" content="DutyInsight" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://dutyinsight.com/" />
 
-<title>DutyInsight | Trade Intelligence & Customs Advisory</title>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dutyinsight.com/" />
+  <meta property="og:title" content="DutyInsight | Trade Intelligence Reports for Import, Export & Market Strategy" />
+  <meta property="og:description" content="Consulting-grade Import, Export, and Strategy Intelligence reports for importers, exporters, and market-entry decision makers." />
+  <meta property="og:image" content="https://dutyinsight.com/android-chrome-512x512.png" />
+  <meta property="og:site_name" content="DutyInsight" />
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DutyInsight | Trade Intelligence Reports" />
+  <meta name="twitter:description" content="Consulting-grade Import, Export, and Strategy Intelligence reports for cross-border decision makers." />
+  <meta name="twitter:image" content="https://dutyinsight.com/android-chrome-512x512.png" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-rel="stylesheet"
-/>
+  <!-- Theme -->
+  <meta name="theme-color" content="#0F2341" />
 
-<link rel="stylesheet" href="style.css" />
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "DutyInsight",
+    "url": "https://dutyinsight.com/",
+    "logo": "https://dutyinsight.com/android-chrome-512x512.png",
+    "description": "Boutique trade intelligence and customs advisory delivering Import, Export, and Strategy Intelligence reports for cross-border decision makers.",
+    "email": "info@dutyinsight.com",
+    "areaServed": ["Europe", "North America", "Middle East"],
+    "serviceType": [
+      "Import Feasibility Intelligence",
+      "Export Entry Intelligence",
+      "Strategy Intelligence Reports",
+      "Customs Advisory",
+      "Market Entry Analysis"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: Services -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Service",
+        "position": 1,
+        "name": "Import Intelligence Report",
+        "description": "Pre-customs import feasibility evaluation: supplier country screening, regulatory entry exposure, certification gap detection, and inbound logistics corridor comparison.",
+        "provider": { "@type": "Organization", "name": "DutyInsight" }
+      },
+      {
+        "@type": "Service",
+        "position": 2,
+        "name": "Export Intelligence Report",
+        "description": "Pre-customs export readiness evaluation: target market screening, certification requirements, demand signals, and outbound logistics corridor analysis.",
+        "provider": { "@type": "Organization", "name": "DutyInsight" }
+      },
+      {
+        "@type": "Service",
+        "position": 3,
+        "name": "Strategy Intelligence Report",
+        "description": "Full strategy reports, executive summaries, and investor briefs with market sizing, legal structure inference, and funding modeling.",
+        "provider": { "@type": "Organization", "name": "DutyInsight" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <header class="site-header">
+
+  <header class="site-header" role="banner">
     <div class="container nav">
-      <a href="#home" class="brand">
-        <img src="DI_logo.svg" alt="DutyInsight logo" class="brand-logo" />
+      <a href="#home" class="brand" aria-label="DutyInsight home">
+        <img src="DI_logo.svg" alt="" class="brand-logo" />
         <span class="brand-text">DutyInsight</span>
       </a>
 
-      <nav class="nav-links">
-        <a href="#services">Services</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#reports">Reports</a>
         <a href="#who">Who We Help</a>
         <a href="#approach">Approach</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <a href="mailto:info@dutyinsight.com" class="nav-cta">Book a Consultation</a>
+      <a href="mailto:info@dutyinsight.com" class="nav-cta">Request a Report</a>
     </div>
   </header>
 
   <main id="home">
-    <section class="hero">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
       <div class="container hero-layout">
         <div class="hero-left">
-          <p class="eyebrow">Boutique Trade Intelligence & Customs Advisory</p>
+          <p class="eyebrow">Trade Intelligence &middot; Customs Advisory</p>
 
-          <h1>
-            Clarity for complex
-            <span>cross-border decisions.</span>
+          <h1 id="hero-heading">
+            Decision-grade clarity
+            <span>before you cross the border.</span>
           </h1>
 
           <p class="hero-text">
-            DutyInsight helps importers, exporters, sourcing teams, and market-entry
-            decision makers turn fragmented trade data into clear commercial insight on
-            suppliers, tariffs, competition, and regulatory exposure.
+            DutyInsight produces consulting-grade <strong>Import</strong>, <strong>Export</strong>, and
+            <strong>Strategy Intelligence</strong> reports — turning fragmented trade, customs, and
+            market data into structured findings that importers, exporters, and market-entry teams
+            can act on.
           </p>
 
           <div class="hero-actions">
-            <a href="mailto:info@dutyinsight.com" class="btn btn-primary">Request a Consultation</a>
-            <a href="#services" class="btn btn-secondary">Explore Services</a>
+            <a href="mailto:info@dutyinsight.com?subject=Report%20Inquiry" class="btn btn-primary">Request a Report</a>
+            <a href="#reports" class="btn btn-secondary">See Our Reports</a>
           </div>
+
+          <ul class="hero-meta" aria-label="What we evaluate">
+            <li><span>Pre-customs feasibility</span></li>
+            <li><span>Sourcing &amp; market screening</span></li>
+            <li><span>Investor-ready briefs</span></li>
+          </ul>
         </div>
 
-        <div class="hero-right">
+        <aside class="hero-right" aria-label="Report focus areas">
           <div class="insight-panel">
             <div class="panel-top">
-              <span class="panel-label">Focus</span>
+              <span class="panel-label">Report Suite</span>
               <span class="panel-status">Decision-ready</span>
             </div>
 
@@ -73,234 +156,246 @@ rel="stylesheet"
               <div class="panel-item">
                 <span class="panel-number">01</span>
                 <div>
-                  <h3>Supplier Intelligence</h3>
-                  <p>Identify sourcing options and evaluate trade patterns before committing.</p>
+                  <h3>Import Intelligence</h3>
+                  <p>Supplier-country screening, regulatory exposure, certification gaps, corridor selection.</p>
                 </div>
               </div>
 
               <div class="panel-item">
                 <span class="panel-number">02</span>
                 <div>
-                  <h3>Tariff & Customs Risk</h3>
-                  <p>Assess exposure, friction points, and regulatory pressure in advance.</p>
+                  <h3>Export Intelligence</h3>
+                  <p>Target-market screening, demand signals, certification requirements, outbound corridors.</p>
                 </div>
               </div>
 
               <div class="panel-item">
                 <span class="panel-number">03</span>
                 <div>
-                  <h3>Competitor Visibility</h3>
-                  <p>Understand trade flows, market structure, and commercial positioning.</p>
+                  <h3>Strategy Intelligence</h3>
+                  <p>Executive summaries, investor briefs, market sizing, funding and legal-structure modeling.</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </aside>
       </div>
     </section>
 
-    <section class="section statement">
+    <!-- STATEMENT -->
+    <section class="section statement" aria-label="Positioning statement">
       <div class="container statement-wrap">
         <div class="statement-line"></div>
         <p>
-          We turn raw trade statistics and customs-related information into structured,
-          commercially useful insight for sourcing, pricing, and market-entry planning.
+          We deliver structured intelligence — not raw data. Every report is built around a single
+          commercial question and ends with a defensible recommendation.
         </p>
       </div>
     </section>
 
-    <section class="section" id="services">
+    <!-- REPORTS / SERVICES -->
+    <section class="section" id="reports" aria-labelledby="reports-heading">
       <div class="container">
         <div class="section-head">
-          <p class="section-tag">Core Services</p>
-          <h2>Focused services built around real commercial decisions.</h2>
+          <p class="section-tag">The Report Suite</p>
+          <h2 id="reports-heading">Three reports built around real cross-border decisions.</h2>
           <p class="section-subtext">
-            DutyInsight supports cross-border decisions with concise analysis tailored to
-            sourcing teams, importers, exporters, and market-entry planning.
+            Each DutyInsight report is a focused engagement — scoped to one commercial decision,
+            grounded in trade and customs data, and delivered in a format your sourcing, finance,
+            or investment committee can use directly.
           </p>
         </div>
 
-        <div class="service-grid">
-          <article class="service-card service-card-featured">
-            <span class="service-kicker">01</span>
-            <h3>Supplier & Sourcing Intelligence</h3>
-            <p>
-              Identify supplier markets, compare sourcing routes, and detect trade
-              patterns that support stronger procurement decisions.
+        <div class="report-grid">
+
+          <article class="report-card report-card-featured" aria-labelledby="report-1">
+            <div class="report-head">
+              <span class="report-kicker">Report 01</span>
+              <span class="report-tag">Pre-Customs</span>
+            </div>
+            <h3 id="report-1">Import Intelligence Report</h3>
+            <p class="report-lead">
+              Evaluate whether a product is <em>ready to import</em> before customs execution begins.
             </p>
+            <ul class="report-list">
+              <li>Top-3 supplier-country screening</li>
+              <li>Regulatory entry exposure &amp; certification gap detection</li>
+              <li>Inbound logistics corridor comparison</li>
+              <li>Tariff and customs-risk assessment</li>
+            </ul>
+            <p class="report-meta">For: Importers &middot; Sourcing teams &middot; Procurement leads</p>
           </article>
 
-          <article class="service-card">
-            <span class="service-kicker">02</span>
-            <h3>Competitor & Trade Flow Analysis</h3>
-            <p>
-              Benchmark market participants by shipment behavior, trading volume,
-              geography, and commercial activity.
+          <article class="report-card report-card-featured" aria-labelledby="report-2">
+            <div class="report-head">
+              <span class="report-kicker">Report 02</span>
+              <span class="report-tag">Pre-Customs</span>
+            </div>
+            <h3 id="report-2">Export Intelligence Report</h3>
+            <p class="report-lead">
+              Evaluate whether a product is <em>ready to export</em> — with the right market, in the right corridor.
             </p>
+            <ul class="report-list">
+              <li>Target-market screening (top-3 candidate markets)</li>
+              <li>Demand signals &amp; competitive intensity</li>
+              <li>Certification &amp; regulatory requirements</li>
+              <li>Outbound logistics corridor analysis</li>
+            </ul>
+            <p class="report-meta">For: Exporters &middot; Manufacturers &middot; Trade teams</p>
           </article>
 
-          <article class="service-card">
-            <span class="service-kicker">03</span>
-            <h3>Tariff & Customs Risk Review</h3>
-            <p>
-              Evaluate tariff exposure, customs-related operational risk, and possible
-              regulatory friction before expansion or sourcing changes.
+          <article class="report-card report-card-strategy" aria-labelledby="report-3">
+            <div class="report-head">
+              <span class="report-kicker">Report 03</span>
+              <span class="report-tag">Strategy Engine</span>
+            </div>
+            <h3 id="report-3">Strategy Intelligence Report</h3>
+            <p class="report-lead">
+              Full strategy reports, executive summaries, and investor briefs — generated from
+              structured business inputs.
             </p>
+            <ul class="report-list">
+              <li>Market sizing &amp; opportunity modeling</li>
+              <li>Legal structure inference</li>
+              <li>Funding and commercial-model framing</li>
+              <li>Investor-ready executive summary</li>
+            </ul>
+            <p class="report-meta">For: Founders &middot; Operators &middot; Investment committees</p>
           </article>
 
-          <article class="service-card">
-            <span class="service-kicker">04</span>
-            <h3>Market Entry Opportunity Assessment</h3>
-            <p>
-              Review demand signals, import dependence, competitive intensity, and trade
-              structure before entering a new market.
-            </p>
-          </article>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="who">
+    <!-- WHO WE HELP -->
+    <section class="section alt" id="who" aria-labelledby="who-heading">
       <div class="container">
         <div class="section-head">
           <p class="section-tag">Who We Help</p>
-          <h2>Built for teams making international trade decisions.</h2>
+          <h2 id="who-heading">Built for teams making consequential trade decisions.</h2>
         </div>
 
         <div class="who-grid">
           <div class="who-card">
             <h3>Importers</h3>
-            <p>
-              Reduce uncertainty around supplier choice, tariff exposure, and customs
-              risk before purchase commitments are made.
-            </p>
+            <p>Reduce uncertainty around supplier choice, tariff exposure, and certification risk before purchase commitments.</p>
           </div>
-
           <div class="who-card">
             <h3>Exporters</h3>
-            <p>
-              Assess market attractiveness, demand signals, and competitor activity with
-              clearer trade-based visibility.
-            </p>
+            <p>Identify the right target markets, validate demand, and map regulatory and corridor requirements.</p>
           </div>
-
           <div class="who-card">
-            <h3>Sourcing & Procurement Teams</h3>
-            <p>
-              Compare sourcing options with more confidence using structured trade and
-              customs-related analysis.
-            </p>
+            <h3>Sourcing &amp; Procurement</h3>
+            <p>Compare supplier countries with structured trade, tariff, and corridor analysis — not vendor lists.</p>
           </div>
-
           <div class="who-card">
-            <h3>Market-Entry Decision Makers</h3>
-            <p>
-              Evaluate foreign market opportunities before expansion with a sharper view
-              of trade structure and commercial risk.
-            </p>
+            <h3>Founders &amp; Investors</h3>
+            <p>Evaluate market entry and funding posture with investor-grade strategy briefs and executive summaries.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="why">
+    <!-- WHY -->
+    <section class="section" id="why" aria-labelledby="why-heading">
       <div class="container why-layout">
         <div class="why-left">
           <p class="section-tag">Why DutyInsight</p>
-          <h2>Sharp analysis without noise.</h2>
+          <h2 id="why-heading">Sharp analysis. No noise.</h2>
           <p class="section-subtext">
-            We do not overwhelm clients with raw datasets or unnecessary complexity. Our
-            work is designed to support practical, higher-quality decisions in sourcing,
-            pricing, and cross-border expansion.
+            We don't deliver dashboards or raw datasets. Each report is scoped to a single
+            commercial question, built on structured trade and customs intelligence, and ends with
+            a defensible recommendation — the format your team can take into a meeting.
           </p>
         </div>
 
         <div class="why-right">
           <div class="value-card">
-            <div class="value-item">Decision-ready insight, not raw data</div>
+            <div class="value-item">Decision-ready findings, not raw exports</div>
             <div class="value-item">Boutique attention with strategic depth</div>
-            <div class="value-item">Commercially useful output for real teams</div>
-            <div class="value-item">Clearer trade, tariff, and market-entry visibility</div>
+            <div class="value-item">Pre-customs clarity before execution</div>
+            <div class="value-item">Investor-grade structure and tone</div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="approach">
+    <!-- APPROACH -->
+    <section class="section alt" id="approach" aria-labelledby="approach-heading">
       <div class="container">
         <div class="section-head">
           <p class="section-tag">Approach</p>
-          <h2>A simple process designed for clarity.</h2>
+          <h2 id="approach-heading">A simple process, designed for clarity.</h2>
         </div>
 
         <div class="approach-grid">
           <div class="approach-card">
             <span class="approach-no">01</span>
             <h3>Define the decision</h3>
-            <p>
-              We begin with the commercial question: supplier selection, tariff exposure,
-              competitor assessment, or market-entry evaluation.
-            </p>
+            <p>We start with the commercial question — import readiness, target market selection, or strategic positioning.</p>
           </div>
-
           <div class="approach-card">
             <span class="approach-no">02</span>
             <h3>Analyze the signals</h3>
-            <p>
-              We review relevant trade data, customs-related indicators, and market
-              structure to reduce ambiguity.
-            </p>
+            <p>We evaluate trade flows, tariff exposure, certification requirements, corridors, and market structure.</p>
           </div>
-
           <div class="approach-card">
             <span class="approach-no">03</span>
-            <h3>Deliver clarity</h3>
-            <p>
-              You receive concise findings that support commercial action with more
-              confidence and less uncertainty.
-            </p>
+            <h3>Deliver the report</h3>
+            <p>You receive a structured, decision-ready report — concise, defensible, and ready to share with stakeholders.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section contact-section" id="contact">
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
       <div class="container">
         <div class="contact-box">
           <p class="section-tag">Contact</p>
-          <h2>Need clarity before your next trade decision?</h2>
+          <h2 id="contact-heading">Need clarity before your next trade decision?</h2>
           <p class="section-subtext">
-            DutyInsight supports cross-border decision making with focused trade
-            intelligence and customs analysis for businesses that need sharper visibility.
+            Tell us the decision you're facing — sourcing, export market selection, or strategic
+            positioning — and we'll scope the right report.
           </p>
-
           <div class="contact-actions">
-            <a href="mailto:info@dutyinsight.com" class="btn btn-primary">Email Us</a>
+            <a href="mailto:info@dutyinsight.com?subject=Report%20Inquiry" class="btn btn-primary">Email DutyInsight</a>
           </div>
+          <p class="contact-email"><a href="mailto:info@dutyinsight.com">info@dutyinsight.com</a></p>
         </div>
       </div>
     </section>
+
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo">
     <div class="container footer-layout">
       <div class="footer-brand-wrap">
-        <a href="#home" class="brand footer-brand">
-          <img src="DI_logo.svg" alt="DutyInsight logo" class="brand-logo" />
+        <a href="#home" class="brand footer-brand" aria-label="DutyInsight home">
+          <img src="DI_logo.svg" alt="" class="brand-logo" />
           <span class="brand-text">DutyInsight</span>
         </a>
         <p class="footer-note">
-          Boutique trade intelligence and customs advisory for clearer cross-border decisions.
+          Boutique trade intelligence and customs advisory. Decision-ready Import, Export, and
+          Strategy reports for cross-border teams.
         </p>
       </div>
 
-      <div class="footer-links">
-        <a href="#services">Services</a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#reports">Reports</a>
         <a href="#who">Who We Help</a>
         <a href="#approach">Approach</a>
         <a href="mailto:info@dutyinsight.com">info@dutyinsight.com</a>
-      </div>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> DutyInsight. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
