@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" fill="#0F2341"/>
+  <rect x="14" y="14" width="72" height="72" rx="2" stroke="#ffffff" stroke-width="3"/>
+  <text x="50" y="50" text-anchor="middle" dominant-baseline="central" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="30" fill="#ffffff" letter-spacing="1">DI</text>
+</svg>
